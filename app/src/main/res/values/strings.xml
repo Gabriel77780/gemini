@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Happy Seed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_input_text_email">Email</string>
+    <string name="login_input_text_password">Password</string>
+    <string name="login_button_enter">log in</string>
 </resources>

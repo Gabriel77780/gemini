@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name">Happy Seed</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- LogInFragment -->
+    <string name="login_title">Log in</string>
     <string name="login_input_text_email">Email</string>
     <string name="login_input_text_password">Password</string>
-    <string name="login_button_enter">log in</string>
+    <string name="login_button_enter">Log in</string>
+    <string name="login_swipe_right">Swipe right to sign up</string>
+
+    <!-- SignUpFragment -->
+    <string name="sign_up_title">Sign up</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="sign_up_input_text_email">Email</string>
+    <string name="sign_up_input_text_name">Name</string>
+    <string name="sign_up_input_text_last_name">Last name</string>
+    <string name="sign_up_input_text_password">Password</string>
+    <string name="sign_up_input_text_repeat_password">Repeat password</string>
+    <string name="sign_up_swipe_left">Swipe left to log in</string>
+
 </resources>

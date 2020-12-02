@@ -17,5 +17,9 @@
     <string name="sign_up_input_text_password">Password</string>
     <string name="sign_up_input_text_repeat_password">Repeat password</string>
     <string name="sign_up_swipe_left">Swipe left to log in</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>

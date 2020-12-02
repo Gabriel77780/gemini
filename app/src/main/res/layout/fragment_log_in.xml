@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment_login_container"
@@ -14,14 +14,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:paddingTop="14dp">
+        android:padding="24dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="150dp"
-            android:orientation="vertical">
+            android:layout_marginBottom="147dp"
+            android:orientation="vertical"
+            android:layout_gravity="top">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:textSize="30sp" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_email"
+            android:id="@+id/log_in_ti_email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_password"
+            android:id="@+id/log_in_ti_password"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,6 +78,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_log_in"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="@string/login_button_enter">
@@ -93,9 +94,7 @@
             android:textAlignment="center"
             android:textSize="20sp"
             app:drawableEndCompat="@drawable/ic_keyboard_arrow_right" />
-
-
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

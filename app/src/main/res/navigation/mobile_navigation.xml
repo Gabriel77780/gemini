@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.gvg.happyseed.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_seed"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.gvg.happyseed.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_location"
+        android:name="com.gvg.happyseed.ui.location.LocationFragment"
+        android:label="@string/title_location"
+        tools:layout="@layout/fragment_location" />
 </navigation>

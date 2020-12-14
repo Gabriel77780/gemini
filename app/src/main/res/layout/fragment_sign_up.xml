@@ -110,6 +110,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sign_up"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="@string/sign_up_button">
